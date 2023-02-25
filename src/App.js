@@ -32,7 +32,7 @@ function App() {
     `;
 
   async function fetchData() {
-    const apiKey = "API-KEY"; // Replace with your GPT-3 API key
+    const apiKey = "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"; // Replace with your GPT-3 API key
     const maxTokens = 3600;
     const apiUrl =
       "https://api.openai.com/v1/completions";
