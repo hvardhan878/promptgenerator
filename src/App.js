@@ -52,7 +52,6 @@ function App() {
     };
     const response = await fetch(apiUrl, requestOptions);
     const data = await response.json();
-    console.log(data)
     setOutputText(data.choices[0].text);
   }
   return (
